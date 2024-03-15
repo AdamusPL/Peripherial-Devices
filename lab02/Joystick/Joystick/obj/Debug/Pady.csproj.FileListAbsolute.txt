@@ -1,0 +1,93 @@
+C:\Users\karol\Desktop\Nowy folder\Joystick\Joystick\bin\Debug\Pady.exe.config
+C:\Users\karol\Desktop\Nowy folder\Joystick\Joystick\bin\Debug\Pady.exe
+C:\Users\karol\Desktop\Nowy folder\Joystick\Joystick\bin\Debug\Pady.pdb
+C:\Users\karol\Desktop\Nowy folder\Joystick\Joystick\bin\Debug\SharpDX.DirectInput.dll
+C:\Users\karol\Desktop\Nowy folder\Joystick\Joystick\bin\Debug\SharpDX.dll
+C:\Users\karol\Desktop\Nowy folder\Joystick\Joystick\bin\Debug\SharpDX.pdb
+C:\Users\karol\Desktop\Nowy folder\Joystick\Joystick\bin\Debug\SharpDX.DirectInput.pdb
+C:\Users\karol\Desktop\Nowy folder\Joystick\Joystick\bin\Debug\SharpDX.DirectInput.xml
+C:\Users\karol\Desktop\Nowy folder\Joystick\Joystick\obj\Debug\Pady.Menu.resources
+C:\Users\karol\Desktop\Nowy folder\Joystick\Joystick\obj\Debug\Pady.Properties.Resources.resources
+C:\Users\karol\Desktop\Nowy folder\Joystick\Joystick\obj\Debug\Pady.csproj.GenerateResource.cache
+C:\Users\karol\Desktop\Nowy folder\Joystick\Joystick\obj\Debug\Pady.csproj.CoreCompileInputs.cache
+C:\Users\karol\Desktop\Nowy folder\Joystick\Joystick\obj\Debug\Pady.csproj.CopyComplete
+C:\Users\karol\Desktop\Nowy folder\Joystick\Joystick\obj\Debug\Pady.exe
+C:\Users\karol\Desktop\Nowy folder\Joystick\Joystick\obj\Debug\Pady.pdb
+C:\Users\karol\Desktop\Nowy folder\Joystick\Joystick\obj\Debug\Pady.csprojAssemblyReference.cache
+C:\Users\karol\Desktop\Nowy folder\Joystick\Joystick\obj\Debug\Pady.Test.resources
+C:\Users\karol\Desktop\Nowy folder\Joystick\Joystick\obj\Debug\Pady.Emulate.resources
+C:\Users\karol\Desktop\Nowy folder\Joystick\Joystick\obj\Debug\Pady.MouseEmulate.resources
+C:\Users\karol\Desktop\Nowy folder\Joystick\Joystick\bin\Debug\WindowsInput.dll
+C:\Users\karol\Desktop\Nowy folder\Joystick\Joystick\bin\Debug\WindowsInput.xml
+C:\Users\karol\Desktop\Nowy folder\Joystick\Joystick\obj\Debug\Pady.Paint.resources
+C:\Users\karol\Desktop\Nowy folder\Joystick\Joystick\obj\Debug\Pady.Form1.resources
+C:\Users\lab\Desktop\Joystick\Joystick\bin\Debug\Pady.exe.config
+C:\Users\lab\Desktop\Joystick\Joystick\bin\Debug\Pady.exe
+C:\Users\lab\Desktop\Joystick\Joystick\bin\Debug\Pady.pdb
+C:\Users\lab\Desktop\Joystick\Joystick\bin\Debug\SharpDX.DirectInput.dll
+C:\Users\lab\Desktop\Joystick\Joystick\bin\Debug\SharpDX.dll
+C:\Users\lab\Desktop\Joystick\Joystick\bin\Debug\WindowsInput.dll
+C:\Users\lab\Desktop\Joystick\Joystick\bin\Debug\SharpDX.pdb
+C:\Users\lab\Desktop\Joystick\Joystick\bin\Debug\SharpDX.DirectInput.pdb
+C:\Users\lab\Desktop\Joystick\Joystick\bin\Debug\SharpDX.DirectInput.xml
+C:\Users\lab\Desktop\Joystick\Joystick\bin\Debug\WindowsInput.xml
+C:\Users\lab\Desktop\Joystick\Joystick\obj\Debug\Pady.csprojAssemblyReference.cache
+C:\Users\lab\Desktop\Joystick\Joystick\obj\Debug\Pady.Form1.resources
+C:\Users\lab\Desktop\Joystick\Joystick\obj\Debug\Pady.MouseEmulate.resources
+C:\Users\lab\Desktop\Joystick\Joystick\obj\Debug\Pady.Menu.resources
+C:\Users\lab\Desktop\Joystick\Joystick\obj\Debug\Pady.Paint.resources
+C:\Users\lab\Desktop\Joystick\Joystick\obj\Debug\Pady.Properties.Resources.resources
+C:\Users\lab\Desktop\Joystick\Joystick\obj\Debug\Pady.Emulate.resources
+C:\Users\lab\Desktop\Joystick\Joystick\obj\Debug\Pady.Test.resources
+C:\Users\lab\Desktop\Joystick\Joystick\obj\Debug\Pady.csproj.GenerateResource.cache
+C:\Users\lab\Desktop\Joystick\Joystick\obj\Debug\Pady.csproj.CoreCompileInputs.cache
+C:\Users\lab\Desktop\Joystick\Joystick\obj\Debug\Pady.csproj.CopyComplete
+C:\Users\lab\Desktop\Joystick\Joystick\obj\Debug\Pady.exe
+C:\Users\lab\Desktop\Joystick\Joystick\obj\Debug\Pady.pdb
+C:\Users\lab\Desktop\Joystick\Joystick\bin\Debug\HidLibrary.dll
+C:\Users\lab\Desktop\Joystick\Joystick\bin\Debug\HidLibrary.pdb
+C:\Users\karol\Desktop\Joystick\Joystick\bin\Debug\Pady.exe.config
+C:\Users\karol\Desktop\Joystick\Joystick\bin\Debug\Pady.exe
+C:\Users\karol\Desktop\Joystick\Joystick\bin\Debug\Pady.pdb
+C:\Users\karol\Desktop\Joystick\Joystick\bin\Debug\HidLibrary.dll
+C:\Users\karol\Desktop\Joystick\Joystick\bin\Debug\SharpDX.DirectInput.dll
+C:\Users\karol\Desktop\Joystick\Joystick\bin\Debug\SharpDX.dll
+C:\Users\karol\Desktop\Joystick\Joystick\bin\Debug\WindowsInput.dll
+C:\Users\karol\Desktop\Joystick\Joystick\bin\Debug\HidLibrary.pdb
+C:\Users\karol\Desktop\Joystick\Joystick\bin\Debug\SharpDX.pdb
+C:\Users\karol\Desktop\Joystick\Joystick\bin\Debug\SharpDX.DirectInput.pdb
+C:\Users\karol\Desktop\Joystick\Joystick\bin\Debug\SharpDX.DirectInput.xml
+C:\Users\karol\Desktop\Joystick\Joystick\bin\Debug\WindowsInput.xml
+C:\Users\karol\Desktop\Joystick\Joystick\obj\Debug\Pady.csprojAssemblyReference.cache
+C:\Users\karol\Desktop\Joystick\Joystick\obj\Debug\Pady.Menu.resources
+C:\Users\karol\Desktop\Joystick\Joystick\obj\Debug\Pady.Paint.resources
+C:\Users\karol\Desktop\Joystick\Joystick\obj\Debug\Pady.Properties.Resources.resources
+C:\Users\karol\Desktop\Joystick\Joystick\obj\Debug\Pady.Test.resources
+C:\Users\karol\Desktop\Joystick\Joystick\obj\Debug\Pady.csproj.GenerateResource.cache
+C:\Users\karol\Desktop\Joystick\Joystick\obj\Debug\Pady.csproj.CoreCompileInputs.cache
+C:\Users\karol\Desktop\Joystick\Joystick\obj\Debug\Pady.csproj.CopyComplete
+C:\Users\karol\Desktop\Joystick\Joystick\obj\Debug\Pady.exe
+C:\Users\karol\Desktop\Joystick\Joystick\obj\Debug\Pady.pdb
+C:\Users\adamc\Desktop\Joystick\Joystick\bin\Debug\Pady.exe.config
+C:\Users\adamc\Desktop\Joystick\Joystick\bin\Debug\Pady.exe
+C:\Users\adamc\Desktop\Joystick\Joystick\bin\Debug\Pady.pdb
+C:\Users\adamc\Desktop\Joystick\Joystick\bin\Debug\HidLibrary.dll
+C:\Users\adamc\Desktop\Joystick\Joystick\bin\Debug\SharpDX.DirectInput.dll
+C:\Users\adamc\Desktop\Joystick\Joystick\bin\Debug\SharpDX.dll
+C:\Users\adamc\Desktop\Joystick\Joystick\bin\Debug\WindowsInput.dll
+C:\Users\adamc\Desktop\Joystick\Joystick\bin\Debug\HidLibrary.pdb
+C:\Users\adamc\Desktop\Joystick\Joystick\bin\Debug\SharpDX.pdb
+C:\Users\adamc\Desktop\Joystick\Joystick\bin\Debug\SharpDX.DirectInput.pdb
+C:\Users\adamc\Desktop\Joystick\Joystick\bin\Debug\SharpDX.DirectInput.xml
+C:\Users\adamc\Desktop\Joystick\Joystick\bin\Debug\WindowsInput.xml
+C:\Users\adamc\Desktop\Joystick\Joystick\obj\Debug\Pady.csproj.AssemblyReference.cache
+C:\Users\adamc\Desktop\Joystick\Joystick\obj\Debug\Pady.csproj.SuggestedBindingRedirects.cache
+C:\Users\adamc\Desktop\Joystick\Joystick\obj\Debug\Pady.Menu.resources
+C:\Users\adamc\Desktop\Joystick\Joystick\obj\Debug\Pady.Paint.resources
+C:\Users\adamc\Desktop\Joystick\Joystick\obj\Debug\Pady.Properties.Resources.resources
+C:\Users\adamc\Desktop\Joystick\Joystick\obj\Debug\Pady.Test.resources
+C:\Users\adamc\Desktop\Joystick\Joystick\obj\Debug\Pady.csproj.GenerateResource.cache
+C:\Users\adamc\Desktop\Joystick\Joystick\obj\Debug\Pady.csproj.CoreCompileInputs.cache
+C:\Users\adamc\Desktop\Joystick\Joystick\obj\Debug\Pady.csproj.CopyComplete
+C:\Users\adamc\Desktop\Joystick\Joystick\obj\Debug\Pady.exe
+C:\Users\adamc\Desktop\Joystick\Joystick\obj\Debug\Pady.pdb

@@ -1,0 +1,16 @@
+C:\Users\karol\Desktop\Nowy folder\Joystick\Joystick\bin\Debug\Joystick.exe.config
+C:\Users\karol\Desktop\Nowy folder\Joystick\Joystick\bin\Debug\Joystick.exe
+C:\Users\karol\Desktop\Nowy folder\Joystick\Joystick\bin\Debug\Joystick.pdb
+C:\Users\karol\Desktop\Nowy folder\Joystick\Joystick\bin\Debug\SharpDX.DirectInput.dll
+C:\Users\karol\Desktop\Nowy folder\Joystick\Joystick\bin\Debug\SharpDX.dll
+C:\Users\karol\Desktop\Nowy folder\Joystick\Joystick\bin\Debug\SharpDX.pdb
+C:\Users\karol\Desktop\Nowy folder\Joystick\Joystick\bin\Debug\SharpDX.DirectInput.pdb
+C:\Users\karol\Desktop\Nowy folder\Joystick\Joystick\bin\Debug\SharpDX.DirectInput.xml
+C:\Users\karol\Desktop\Nowy folder\Joystick\Joystick\obj\Debug\Joystick.csprojAssemblyReference.cache
+C:\Users\karol\Desktop\Nowy folder\Joystick\Joystick\obj\Debug\Joystick.Menu.resources
+C:\Users\karol\Desktop\Nowy folder\Joystick\Joystick\obj\Debug\Joystick.Properties.Resources.resources
+C:\Users\karol\Desktop\Nowy folder\Joystick\Joystick\obj\Debug\Joystick.csproj.GenerateResource.cache
+C:\Users\karol\Desktop\Nowy folder\Joystick\Joystick\obj\Debug\Joystick.csproj.CoreCompileInputs.cache
+C:\Users\karol\Desktop\Nowy folder\Joystick\Joystick\obj\Debug\Joystick.csproj.CopyComplete
+C:\Users\karol\Desktop\Nowy folder\Joystick\Joystick\obj\Debug\Joystick.exe
+C:\Users\karol\Desktop\Nowy folder\Joystick\Joystick\obj\Debug\Joystick.pdb
