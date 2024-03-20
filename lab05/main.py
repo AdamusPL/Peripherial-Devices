@@ -4,11 +4,11 @@
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
 
-
 import time
 import serial
 import threading
 from xmodem import XMODEM
+
 
 def main():
     def read_from_port(port):
@@ -27,12 +27,13 @@ def main():
         modem_port.write(data)
         time.sleep(0.1)
 
-    modem_port = serial.Serial(port='COM1', bytesize=8, baudrate=9600, parity=serial.PARITY_NONE, stopbits=serial.STOPBITS_ONE, rtscts=True)
-    print('Port otwarty\n')
+    modem_port = serial.Serial(port='COM1', bytesize=8, baudrate=9600, parity=serial.PARITY_NONE,
+                               stopbits=serial.STOPBITS_ONE, rtscts=True)
+    print('Port is open\n')
 
     # Start the listening thread
     t = threading.Thread(target=read_from_port, daemon=True, args=(modem_port,))
-    print('start wątku')
+    print('Thread started')
     t.start()
 
     # Initialize XMODEM protocol
@@ -47,15 +48,15 @@ def main():
             modem_port.close()
             break
         elif message == 'send':
-            filename = input("plik: ")
+            filename = input("File: ")
             with open(filename, 'rb') as file_to_send:
                 modem.send(file_to_send)
-            print("plik wysłano.")
+            print("File sent.")
         elif message == 'receive':
-            filename = input("zapisz plik jako: ")
+            filename = input("Save file as: ")
             with open(filename, 'wb') as file_to_receive:
                 modem.recv(file_to_receive)
-            print("Otrzymany plik")
+            print("Received file")
         elif message == "call":
             modem_port.write(("ATD" + '\r\n').encode('utf-8'))
         elif message == "answer":
@@ -66,7 +67,6 @@ def main():
             modem_port.write(("AT" + '\r\n').encode('utf-8'))
         else:
             modem_port.write((message + '\r\n').encode('utf-8'))
-
 
 
 # Press the green button in the gutter to run the script.
