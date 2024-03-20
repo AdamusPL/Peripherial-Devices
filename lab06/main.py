@@ -4,28 +4,29 @@ import socket
 import threading
 
 
-def enable_wifi_card():         #włączenie urządzenia
+def enable_wifi_card():  # turn on device
     os.system("netsh interface set interface Wi-Fi enable")
-    print("Wlaczono wifi")
+    print("Wi-Fi turned on")
 
 
-def disable_wifi_card():        #wyłączenie urządzenia
+def disable_wifi_card():  # turn off device
     os.system("netsh interface set interface Wi-Fi disable")
-    print("Wylaczono wifi")
+    print("Wi-Fi turned off")
 
 
-def display_networks():         #połączenie z wybraną siecią
+def display_networks():  # connect with selected network
     os.system('cmd /c "netsh wlan show networks"')
     # aby połączyć należy podać nazwę sieci
-    router_name = input('Podaj Name/SSID sieci z ktora chcesz sie polaczyc: ')
+    router_name = input('Give Name/SSID of network which you want to connect: ')
     # łączenie z wybraną siecią
     os.system(f'''cmd /c "netsh wlan connect name = {router_name}"''')
 
 
-def ping(ip):                   #funkcja umożliwia ping
-    os.system('cmd /c "ping "'+ip)
+def ping(ip):  # function which makes ping
+    os.system('cmd /c "ping "' + ip)
 
-def send_file(filename, host='hostname', port=50000):   #przesłanie pliku
+
+def send_file(filename, host='hostname', port=50000):  # send file
     s = socket.socket()
     s.connect((host, port))
 
@@ -36,10 +37,10 @@ def send_file(filename, host='hostname', port=50000):   #przesłanie pliku
             data = f.read(1024)
 
     s.close()
-    print("Plik został wysłany.")
+    print("File was sent.")
 
 
-def handle_client_connection(client_socket):  #odebranie przesłanego pliku
+def handle_client_connection(client_socket):  # receive sent file
     try:
         filename = "test.txt"
         with open(filename, 'wb') as f:
@@ -48,37 +49,40 @@ def handle_client_connection(client_socket):  #odebranie przesłanego pliku
                 if not data:
                     break
                 f.write(data)
-                print(f"Otrzymano: {data.decode()}")
+                print(f"Received: {data.decode()}")
                 client_socket.send("Echo: ".encode() + data)
     finally:
         client_socket.close()
 
 
-def start_server(host, port=50000):         #metoda akceptująca połączenie oraz tworząca wątek obsługujący połączenie z klientem
+def start_server(host,
+                 port=50000):  # method accepting connection and creating thread handling connection with client
     server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     server.bind((host, port))
     server.listen(5)
-    print(f"Serwer nasłuchuje na {host}:{port}")
+    print(f"Server is listening on: {host}:{port}")
+
     def listen(server):
         while True:
             client_sock, address = server.accept()
-            print(f"Akceptacja połączenia od {address}")
+            print(f"Accepted connection from: {address}")
             client_handler = threading.Thread(
                 target=handle_client_connection,
                 args=(client_sock,)
             )
             client_handler.start()
-    t = threading.Thread(target=listen, args = (server,))
+
+    t = threading.Thread(target=listen, args=(server,))
     t.start()
 
 
-
-def run_Server():                #metoda uruchamia wątek nasłuchujący na danym porcie, który akceptuje połączenia
+def run_Server():  # method which starts thread listening on specific port which accepts connection
     my_ip = get_local_ip()
-    server_thread = threading.Thread(target=start_server(my_ip,50000,))
+    server_thread = threading.Thread(target=start_server(my_ip, 50000, ))
     server_thread.start()
 
-def get_local_ip():             #wyświetlenie adresu ip urządzenia
+
+def get_local_ip():  # printing IP address of device
     s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     try:
         # doesn't even have to be reachable
@@ -100,27 +104,26 @@ def main():
     option = 0
     while True:
 
-        print("1.Connect to Wi-Fi network")
-        print("2.Send file")
-        print("3.Ping")
-        print("4.Wlacz WiFi")
-        print("5.Wylacz Wifi")
-        print("0.Wyjdz")
+        print("1. Connect to Wi-Fi network")
+        print("2. Send file")
+        print("3. Ping")
+        print("4. Turn on Wi-Fi")
+        print("5. Turn off Wi-fi")
+        print("0. Exit")
         option = input("Enter option\n")
-
 
         if option.__eq__("1"):
             display_networks()
 
         elif option.__eq__("2"):
-            filename = input("Give file name")
-            hostname = input("Give hostname")
+            filename = input("Give the file name")
+            hostname = input("Give the hostname")
             send_file(filename, hostname)
 
         elif option.__eq__("0"):
             return
         elif option.__eq__("3"):
-            ip = input("Give ip:")
+            ip = input("Give IP:")
             ping(ip)
         elif option.__eq__("4"):
             enable_wifi_card()
